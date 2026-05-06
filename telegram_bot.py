@@ -171,6 +171,7 @@ def log_llm_answer(answer: str, ms: float, source: str):
         subtitle=f"[dim]source: {source}[/dim]",
         border_style="green",
     ))
+    
 
 
 def log_doc_upload(filename: str, mime: str, chunks: int, chars: int, ms: float):
